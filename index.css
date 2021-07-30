@@ -1,0 +1,76 @@
+h1 {
+	background-color: #5E768E;
+	padding: 2px 40px;
+}
+
+h1 a{
+	color: #ffffff;
+	font-size: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: lucida console;
+	vertical-align: top;
+}
+
+body{
+	background-color: #f9f9f9;
+}
+
+.inicio{
+	font-family: lucida console;
+	position: absolute;
+	top: 70px;
+	text-transform: none;
+	color: #4e4e4e;
+	font-size: 25px;
+	left: 10px;
+}
+
+li{
+	display: inline-block;
+	border: 2px solid #5e768e;
+	border-radius: 10px;
+	background-color: #ffffff;
+
+}
+
+nav a{
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+	color: #585858;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration: underline;
+	border-color: #00bb00;
+
+}
+
+.numero{
+	font-size: 50px;
+	color: #585858;
+}
+
+
+ul{
+	text-align: center;
+}
+
+ul li{
+	padding: 45px 58px;
+	margin: 100px 5px;
+}
+
+ul li:hover{
+	text-decoration: underline;
+	border-color: #00bb00;
+	transform: scale(1.05);
+}
+
+ul li:active{
+	border-color: yellow;	
+
+}

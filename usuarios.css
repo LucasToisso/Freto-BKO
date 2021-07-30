@@ -1,0 +1,98 @@
+h1 {
+	background-color: #5E768E;
+	padding: 2px 40px;
+}
+
+h1 a{
+	font-family: lucida console;
+	color: #ffffff;
+	font-size: 30px;
+	font-weight: bold;
+	vertical-align: top;
+	text-transform: none;
+}
+
+body{
+	background-color: #f9f9f9;
+}
+
+main{
+	top: 150px;
+	width: 1400px;
+	margin: 150px 10px;
+}
+
+p{
+	font-family: lucida console;
+	position: absolute;
+	top: 70px;
+	text-transform: none;
+	color: #4e4e4e;
+	font-size: 25px;
+}
+
+.inicio{
+	text-transform: none;
+	color: #000080;
+	font-size: 25px;
+
+}
+
+select{
+	border: none;
+	border-bottom: 1px solid #bbb;
+	background-color: #f9f9f9;
+	color: #777;
+}
+
+.pesquisa{
+	position: absolute;
+	top: 120px;
+	left: 200px;
+
+}
+
+.pesquisa input{
+	width: 900px;
+	background-color: #f9f9f9;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #bbb;
+	vertical-align: top;
+}
+
+select{
+	position: absolute;
+	top: 120px;
+}
+
+li{
+	border: 2px solid #5e768e;
+	border-radius: 10px 10px 0 0;
+}
+
+a{
+	text-decoration: none;
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-family: lucida console;
+
+}
+
+li:hover{
+	background-color: #5e768e;
+}
+
+.usuarios{
+	background-color: #5e768e;
+}
+
+ul li{
+	display: inline;
+	margin: 0 auto;
+	background-color: #87AACC;
+	padding: 10px 87.5px;
+	border: none;
+	border-bottom: 5px solid #5E768E;
+}
