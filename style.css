@@ -66,33 +66,20 @@ select{
 	top: 120px;
 }
 
-li{
-	border: 2px solid #5e768e;
-	border-radius: 10px 10px 0 0;
-}
-
-a{
-	text-decoration: none;
+div button{
+	border: none;
+	padding: 10px 87.5px;
 	font-size: 15px;
 	color: #ffffff;
+	background-color: #87AACC;
 	text-transform: uppercase;
 	font-family: lucida console;
-
-}
-
-li:hover{
-	background-color: #5e768e;
-}
-
-.usuarios{
-	background-color: #5e768e;
-}
-
-ul li{
-	display: inline;
-	margin: 0 auto;
-	background-color: #87AACC;
-	padding: 10px 87.5px;
-	border: none;
+	border-radius: 10px 10px 0 0;
 	border-bottom: 5px solid #5E768E;
+	cursor: pointer;
+	display: inline;
+}
+
+div button:hover{
+	background-color: #5e768e;
 }
