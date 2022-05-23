@@ -1,30 +1,26 @@
+header{
+	border-bottom: #000 3px solid;
+}
 h1 {
 	background-color: #5E768E;
 	padding: 2px 40px;
 }
 
 h1 a{
-	font-family: lucida console;
 	color: #ffffff;
 	font-size: 30px;
+	text-decoration: none;
 	font-weight: bold;
+	font-family: lucida console;
 	vertical-align: top;
-	text-transform: none;
 }
 
 body{
 	background-color: #f9f9f9;
 }
 
-main{
-	top: 150px;
-	width: 1400px;
-	margin: 150px 10px;
-}
-
 p{
 	font-family: lucida console;
-	position: absolute;
 	top: 70px;
 	text-transform: none;
 	color: #4e4e4e;
@@ -32,11 +28,14 @@ p{
 }
 
 .inicio{
+	font-family: lucida console;
+	margin: 20px 15px;
 	text-transform: none;
-	color: #000080;
+	color: #4e4e4e;
 	font-size: 25px;
-
+	left: 10px;
 }
+
 
 select{
 	border: none;
@@ -49,7 +48,6 @@ select{
 	position: absolute;
 	top: 120px;
 	left: 200px;
-
 }
 
 .pesquisa input{
@@ -78,6 +76,7 @@ div button{
 	border-bottom: 5px solid #5E768E;
 	cursor: pointer;
 	display: inline;
+	margin-top: 50px;
 }
 
 div button:hover{
