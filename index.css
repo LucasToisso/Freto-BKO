@@ -1,3 +1,6 @@
+header{
+	border-bottom: #000 3px solid;
+}
 h1 {
 	background-color: #5E768E;
 	padding: 2px 40px;
@@ -18,23 +21,27 @@ body{
 
 .inicio{
 	font-family: lucida console;
-	position: absolute;
-	top: 70px;
+	margin: 20px 15px;
 	text-transform: none;
 	color: #4e4e4e;
 	font-size: 25px;
 	left: 10px;
 }
 
-li{
-	display: inline-block;
+.conteiner{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 50px;
+}
+
+.conteiner div{
 	border: 2px solid #5e768e;
 	border-radius: 10px;
 	background-color: #ffffff;
-
+	padding: 75px;
 }
 
-nav a{
+.conteiner a{
 	display: inline-block;
 	text-align: center;
 	text-transform: uppercase;
@@ -43,10 +50,9 @@ nav a{
 	text-decoration: none;
 }
 
-nav a:hover{
+.conteiner a:hover{
 	text-decoration: underline;
 	border-color: #00bb00;
-
 }
 
 .numero{
@@ -54,23 +60,12 @@ nav a:hover{
 	color: #585858;
 }
 
-
-ul{
-	text-align: center;
-}
-
-ul li{
-	padding: 45px 58px;
-	margin: 100px 5px;
-}
-
-ul li:hover{
+div:hover{
 	text-decoration: underline;
 	border-color: #00bb00;
 	transform: scale(1.05);
 }
 
-ul li:active{
-	border-color: yellow;	
-
+div:active{
+	border-color: yellow;
 }
